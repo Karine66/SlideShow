@@ -1,4 +1,4 @@
-package com.karine.slideshow
+package com.karine.slideshow.ui.mainActivity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.karine.slideshow.utils.LocalPreferences
+import com.karine.slideshow.R
+import com.karine.slideshow.ui.settingsActivity.SettingsActivity
 import com.karine.slideshow.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

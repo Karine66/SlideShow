@@ -1,7 +1,6 @@
-package com.karine.slideshow
+package com.karine.slideshow.utils
 
 import android.content.Context
-import android.preference.PreferenceManager
 
 class LocalPreferences (context: Context){
 

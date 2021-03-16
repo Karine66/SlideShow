@@ -1,9 +1,10 @@
-package com.karine.slideshow
+package com.karine.slideshow.ui.settingsActivity
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.SeekBar
+import com.karine.slideshow.utils.LocalPreferences
 import com.karine.slideshow.databinding.ActivitySettingsBinding
 
 class SettingsActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
